@@ -2,12 +2,6 @@
 
 A browser-based, front-end prototype for the HCIN6222 Student Wellness Check-In project. It follows the visual direction of the supplied Figma screens: warm off-white background, muted green accents, rounded cards and a calm, minimal layout.
 
-## Run locally
-1. Download or clone this repository.
-2. Keep `index.html`, `style.css` and `script.js` in the same folder.
-3. Open `index.html` in a modern browser (Chrome, Edge, Firefox or Safari).
-
-No build tools, package installation or server are required for the local demonstration.
 
 ## Features
 - Home page and working navigation.
@@ -20,13 +14,6 @@ No build tools, package installation or server are required for the local demons
 - Responsive layout for desktop and mobile.
 - Keyboard-visible focus indicators and reduced-motion preference support.
 
-## GitHub Pages
-1. Create a GitHub repository (for example, `student-wellness-check-in`).
-2. Upload the three website files and this README to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)` folder, then save.
-6. Wait for GitHub Pages to publish the site. The published URL will appear in the Pages settings.
 
 ## Data and privacy limitations
 This is an academic demonstration prototype. Check-ins are stored in `localStorage` in the current browser profile. They are not uploaded to a server or shared between devices. Anyone with access to the same browser profile may be able to view the entries. Clearing browser site data may remove them. Do not enter sensitive personal or medical information, and do not use this prototype as a real student counselling or emergency service.
